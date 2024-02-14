@@ -1,5 +1,10 @@
 'use strict';
 
+/**
+ * Проста демонстрація примусового завершення асинхронної операції за 
+ * допомогою цільового класу CancelablePromise / run -> node demo.js
+ */
+
 const CancelablePromise = require('./cancelable-promise');
 
 // 1
